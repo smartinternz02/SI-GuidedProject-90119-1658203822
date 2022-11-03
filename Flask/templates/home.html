@@ -1,0 +1,88 @@
+ <!DOCTYPE  html>
+<html>
+<head>
+	<title>Milk Grading System</title>
+	<style>
+		body{
+			background-image: url('https://wallpaperaccess.com/full/3201884.jpg');
+			height: 95vh;
+			background-size: cover;
+			background-position:center;
+		}
+
+		ul{
+			float: right;
+			list-style-type: none; 
+			margin-top: 25px
+		}
+		ul li{
+			display: inline-block;
+		}
+		ul li a{
+			text-decoration: none;
+			color: #fff;
+			padding: 5px 20px;
+			border: 1px  solid  #fff;
+			transition: 0.6s ease;
+		}
+
+		ul li a:hover{
+			background-color: #fff;
+			color: #000;
+		}
+
+		ul li.active a{
+			background-color: #fff;
+			color: #000;
+		}
+
+		.main{
+			max-width: 1200px;
+			margin: auto;
+		}
+		.title{
+			position: absolute;
+			top: 20%;
+			left: 49%;
+			transform: translate(-50%,-50%)
+		}
+
+		.title h1{
+			font-size: 50px;
+		}
+
+		.description h1{
+			position: absolute;
+			top: 45%;
+			left:60%
+			transform.translate(-50%,-50%)
+			}
+
+		.description h1{
+			color: #000;
+			font-size: 21px;
+		}
+		.description{
+			max-width: 1200px;
+			margin-left:25px;
+			margin-right:25px;
+		}
+		</style>
+</head>
+<body>
+		<div class="main">
+			<ul>
+				<li class="active"><a href="/">Home</a></li>
+				<li><a href="pred">Predict</a></li>
+			</ul>
+		</div>
+		<div class="title">
+			
+			<h1>Milk Grading System</h1>
+		</div>
+
+		<div class="description">
+			<h1>The objective of this article is to predict milk grading given the various parameters. This will be a classification problem since the target or dependent variable is the grade(categorical values). THE PURPOSE of grading milk is to separate the available supply of potable milk into classes differing in superiority. Nearly all food products are graded in some way. It appears equally logical to separate milk into similar classes so that the consumer may select milk for particular purposes according to his desires and pocketbook. The main problem here is not just the feature sets and target sets but also the approach that is taken in solving these types of problems. We will be using classification algorithms such as Decision tree, Random forest, svm, and Extra tree classifier. We will train and test the data with these algorithms</h1>
+		</div>
+</body>
+</html>

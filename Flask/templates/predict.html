@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Predict</title>
+<style>
+body{
+	background-image: url('https://cdn.wallpapersafari.com/86/70/iEKYAP.jpg');
+	height: 100vh;
+	background-size: cover;
+	background-position:center;
+}
+ul{
+	float: right;
+	list-style-type: none; 
+	margin-top: 25px
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px  solid  #fff;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+	position: absolute;
+	top: 5%;
+	left: 18%;
+	transform: translate(-50%,-50%)
+}
+
+.title h2{
+	font-size: 40px;
+}
+.sub-title{
+	position: absolute;
+	top: 12.5%;
+	left: 50%;
+	transform: translate(-50%,-50%)
+}
+
+.sub-title h1{
+	font-size: 30px;
+}
+.body{
+	position: absolute;
+	top: 56.5%;
+	left: 50%;
+	transform: translate(-50%,-50%)
+}
+
+.body label{
+	font-size: 20px;
+}
+input{
+	width: 250px;
+	border: 0.5px solid #ddd;
+	border-radius: 5px;
+	outline: 1;
+	padding: 5px;
+	background-color: #fff;
+	box-shadow:inset 1px 1px 5px rgba(0,0,0,0.7);
+}
+button{
+	width: 100px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	outline: 1;
+	padding: 5px;
+	background-color: #0C0;
+	box-shadow:inset 1px 1px 5px rgba(0,0,0,0.5);
+}
+</style>
+</head>
+<body>
+	<div class="main">
+	<div class="title">
+		<h2>Milk Grading System</h2>
+	</div>
+	<div class="sub-title">
+		<h1>Predict</h1>
+	</div>
+	<ul>
+		<li class="active"><a href="/">Home</a></li>
+		<li><a href="pred">Predict</a></li>
+	</ul>
+  	<div class="body">
+		<form action="predict" method="post">				
+		<label> pH : </label>
+		<br>
+		<input type=" text" name="ph" placeholder="  pH">
+		<br><br>
+		<label>Temprature : </label>
+		<br>
+		<input type="text" name="temperature" placeholder="  Temperature">
+		<br><br>
+		<label>Taste : </label>
+		<br>
+		<input type="text" name="taste" placeholder="  Taste">
+		<br><br>
+		<label>Odor : </label>
+		<br>
+		<input type="text" name="odor" placeholder="  Odor">
+		<br><br>
+		<label>Fat : </label>
+		<br>
+		<input type="text" name="fat" placeholder="  Fat">
+		<br><br>
+		<label>Turbidity : </label>
+		<br>
+		<input type="text" name="turbidity" placeholder="  Turbidity">
+		<br><br>
+		<label>Colour : </label>
+		<br>
+		<input type="text" name="colour" placeholder="  Colour">
+		<br><br>
+		<button type="submit">Submit</button>
+		</form>
+	</div>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
